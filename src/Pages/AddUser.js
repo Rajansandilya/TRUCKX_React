@@ -27,7 +27,7 @@ export default function AddUser(){
             url: `https://reqres.in/api/users`,
             data: user
           });
-        // console.log(response.data)
+         console.log(response.data)
      }
     return(
         <Container style={{marginTop:"100px"}}>
